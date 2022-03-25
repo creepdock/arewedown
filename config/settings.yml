@@ -1,0 +1,22 @@
+logRetention: 7
+watchers:
+    google:
+        test: net.portOpen
+        port: 80
+        host: google.com
+    tiktok:
+        test: net.portOpen
+        port: 80
+        host: tiktok.com
+    facebook:
+        test: net.portOpen
+        port: 80
+        host: facebook.com
+    instagram:
+        test: net.portOpen
+        port: 80
+        host: instagram.com
+    twitter:
+        test: net.portOpen
+        port: 80
+        host: twitter.com
