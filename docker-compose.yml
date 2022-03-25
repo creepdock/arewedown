@@ -1,0 +1,11 @@
+version: '3'
+services:
+    arewedown:
+        restart: unless-stopped
+        container_name: arewedown
+        image: ghcr.io/creepdock/arewedown
+        ports:
+            - 3000:3000
+        volumes:
+            - ./config/:/app/config/
+            - ./logs/:/app/logs/
