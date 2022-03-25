@@ -3,7 +3,7 @@ services:
     arewedown:
         restart: unless-stopped
         container_name: arewedown
-        image: ghcr.io/creepdock/arewedown
+        image: ghcr.io/creepdock/arewedown:latest
         ports:
             - 3000:3000
         volumes:
